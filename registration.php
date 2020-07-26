@@ -38,6 +38,8 @@ $password = $_POST['password'];
         }
 
         $message = "Your Registration has been submitted";
+	 header('location:http://localhost/PHP-CMS-master/login.php');
+	    //redirects to login page
 
     }else{
         $message = "fields cannot be empty";
